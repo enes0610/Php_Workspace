@@ -1,0 +1,5 @@
+Xampp htdocs klasöründe Php-Mysql adında klasör oluştur.
+
+Link: http://localhost/Php-Mysql/connect.php
+Link: http://localhost/Php-Mysql/insert_user.php
+Link: http://localhost/Php-Mysql/list_users.php

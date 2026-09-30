@@ -1,0 +1,171 @@
+/* Genel Sayfa Tarzı */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Genel Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Başlık */
+.container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Butonlar */
+.btn {
+    text-decoration: none;
+    padding: 10px 17px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn.danger {
+    background: #dc3545;
+}
+
+.btn.danger:hover {
+    background: #b02a37;
+}
+
+/* Görev Tablosu */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+table td {
+    padding: 12px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+table tr:hover td {
+    background: #eef3ff;
+}
+
+/* İşlem Linkleri */
+table a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Durum Etiketleri */
+.status {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status.bekliyor {
+    background: #f0ad4e;
+    color: white;
+}
+
+.status.devam {
+    background: #0275d8;
+    color: white;
+}
+
+.status.tamam {
+    background: #5cb85c;
+    color: white;
+}
+
+/* Form Container */
+.form-container {
+    width: 90%;
+    max-width: 450px;
+    background: white;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Input, Textarea, Select */
+input, textarea, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Odaklanınca */
+input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+}
+
+/* Buton */
+button {
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    table th, table td {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}

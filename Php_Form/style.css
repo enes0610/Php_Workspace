@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+.container, .form-container {
+    width: 350px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+}
+
+button {
+    background: #008cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #006acc;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.btn {
+    display: block;
+    margin-top: 15px;
+    background: #008cff;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn.danger {
+    background: #d9534f;
+}
